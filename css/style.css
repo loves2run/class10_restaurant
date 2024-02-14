@@ -57,6 +57,7 @@ nav li {
 main {
   height: 300px;
   padding-left: 50px;
+  padding-top: 10px;
 }
 
 main section {
@@ -89,6 +90,84 @@ main li {
   padding-right: 50px;
 }
 
+.about {
+  height: 400px;
+  padding-top: 10px;
+}
+
+.about-text {
+  width: 50%;
+  position: relative;
+  left: 30%;
+}
+
+.order-now {
+  /* height: 700px; */
+  padding-top: 10px;
+}
+
+.order-now-text {
+  text-align: center;
+}
+
+.order-now ul {
+  margin-bottom: 40px;
+  padding: 0 25%;
+  width: 100%;
+}
+
+.order-now li {
+  display: block;
+  float: left;
+  padding: 0 40px;
+}
+
+.image-carousel {
+  clear: both;
+  display: block;
+  margin: 0 10%;
+}
+
+.carousel-row-1,
+.carousel-row-2 {
+  width: 100%;
+}
+
+.image-carousel img {
+  width: 22%;
+  margin: 13px;   
+}
+
+.contact {
+  text-align: center;
+  /* height: 650px; */
+  padding-top: 10px;
+}
+
+.contact-text {
+  pading: 10px 0;
+}
+
+i.fa-solid.fa-phone,
+.contact-info span {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.operation-hours {
+  float: left;
+  width: 50%;
+}
+
+.operation-hours span {
+  padding: 10px 0;
+  display: block;
+}
+
+.contact img {
+  padding: 20px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
