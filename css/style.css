@@ -37,6 +37,8 @@ a {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/*** HEADER/NAV LAYOUT ***/
 header {
   height: 55px;
   
@@ -48,12 +50,12 @@ nav {
 }
 
 
-
 nav li {
   float: left;
   padding-left: 40px;
 }
 
+/*** MAIN LAYOUT ***/
 main {
   height: 300px;
   padding-left: 50px;
@@ -90,6 +92,7 @@ main li {
   padding-right: 50px;
 }
 
+/*** ABOUT LAYOUT ***/
 .about {
   height: 400px;
   padding-top: 10px;
@@ -101,6 +104,7 @@ main li {
   left: 30%;
 }
 
+/*** ORDER-NOW LAYOUT ***/
 .order-now {
   /* height: 700px; */
   padding-top: 10px;
@@ -138,6 +142,7 @@ main li {
   margin: 13px;   
 }
 
+/*** CONTACT LAYOU ***/
 .contact {
   text-align: center;
   /* height: 650px; */
@@ -168,6 +173,26 @@ i.fa-solid.fa-phone,
 .contact img {
   padding: 20px;
 }
+
+/*** TESTIMONIALS LAYOUT ***/
+.testimonials {
+  padding: 10px 25%;
+  text-align: center
+}
+
+.testimonials h4 {
+  margin-bottom: 10px;
+}
+
+.testimonials span:first-of-type {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.testimonials p {
+  margin-top: .5em;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
