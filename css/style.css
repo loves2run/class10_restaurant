@@ -96,7 +96,7 @@ main li {
 
 /*** ABOUT LAYOUT ***/
 .about {
-  height: 450px;
+  height: 550px;
   padding-top: 10px;
 }
 
@@ -152,7 +152,7 @@ main li {
 }
 
 .contact-text {
-  pading: 10px 0;
+  padding: 10px 0;
 }
 
 i.fa-solid.fa-phone,
