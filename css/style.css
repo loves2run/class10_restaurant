@@ -20,10 +20,12 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+html {
+  font-size: 16px;
+}
 
 body {
   display: block;
-  padding: 10px;
 }
 
 ul {
@@ -57,8 +59,8 @@ nav li {
 
 /*** MAIN LAYOUT ***/
 main {
-  height: 300px;
-  padding-left: 50px;
+  height: 500px;
+  padding-left: 90px;
   padding-top: 10px;
 }
 
@@ -94,12 +96,12 @@ main li {
 
 /*** ABOUT LAYOUT ***/
 .about {
-  height: 400px;
+  height: 450px;
   padding-top: 10px;
 }
 
 .about-text {
-  width: 50%;
+  width: 43%;
   position: relative;
   left: 30%;
 }
@@ -196,3 +198,111 @@ i.fa-solid.fa-phone,
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/*** BUTTON ***/
+.button {
+  background-color: #ff9429;
+  border-radius: 5%;
+  color: #fff;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button a {
+  color: #fff;
+}
+
+.about-button {
+  height: 35px;
+  width: 140px;
+  padding-top: 7px;
+}
+
+.discover-menu-second {
+  background-color: #ffaa4d;
+  height: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+}
+
+/*** THEME ***/
+
+header,
+main {
+  background-color: #f2f6f7;
+}
+
+
+.about {
+  background-color: #fdfdfd;
+  background: url(../img/background_pie.png) top left no-repeat, url(../img/background_oatmeal_fruit_bowl.png) bottom right no-repeat;
+  background-size: 29%;
+}
+
+.contact-emphasis {
+  color: #ff9429;
+  font-size: 1.7rem;
+}
+
+.customer-title {
+  color: #acacb5;
+}
+
+li a:hover {
+  color:#ff9429;
+}
+
+i.fa-brands {
+  color: #ff9429;
+}
+
+main {
+  background-image: url(../img/background_fruit.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 35%;
+}
+
+.stars {
+  color: #ff9429;
+}
+
+/*** Typography ***/
+nav a,
+.order-now a {
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h6 {
+  color: #ff9429;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.hours-bold {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.testimonials p {
+  font-style: italic;
+}
